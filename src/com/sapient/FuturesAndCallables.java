@@ -22,8 +22,8 @@ public class FuturesAndCallables implements Callable{
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             }
-            service.shutdown();
         }
+        service.shutdown();
     }
 
     @Override
